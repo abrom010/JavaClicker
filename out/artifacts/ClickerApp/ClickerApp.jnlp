@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ClickerApp.jnlp">
+  <information>
+    <title>ClickerApp</title>
+    <vendor>Unknown</vendor>
+    <description>ClickerApp</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ClickerApp.jar" size="216083" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="GUI"  name="ClickerApp" />
+  <update check="background"/>
+</jnlp>
