@@ -85,12 +85,13 @@ public class Clicker implements NativeMouseInputListener { // upper button 5, lo
             try {
                 while (!exit) {
                     robot.mousePress(InputEvent.BUTTON1_MASK);
-                    Thread.sleep(10);
+                    Thread.sleep(20);
                     robot.mouseRelease(InputEvent.BUTTON1_MASK);
                     Thread.sleep(5000);
                     robot.mousePress(InputEvent.BUTTON1_MASK);
-                    Thread.sleep(10);
+                    Thread.sleep(20);
                     robot.mouseRelease(InputEvent.BUTTON1_MASK);
+                    Thread.sleep(1000);
                 }
             } catch(InterruptedException e) {
                 cease();
